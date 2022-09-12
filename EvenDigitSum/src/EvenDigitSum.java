@@ -25,10 +25,12 @@ public class EvenDigitSum {
         // an arraylist to hold the digits from the string
         ArrayList<Integer> newStrNum = new ArrayList<>();
         // populating the arraylist with characters converted to digits
+        // using for loop
         for (int i = 0; i < strNum.length(); i++) {
             newStrNum.add(Character.getNumericValue(strNum.charAt(i)));
         }
-        int sum = 0;  // sum to be returned
+        // sum to be returned
+        int sum = 0;
         // computing the sum
         for (Integer integer : newStrNum) {
             if (integer % 2 == 0) {
@@ -43,5 +45,6 @@ public class EvenDigitSum {
         System.out.println(getEvenDigitSum(123456789));
         System.out.println(getEvenDigitSum(252));
         System.out.println(getEvenDigitSum(-22));
+        System.out.println(getEvenDigitSum(4621972));
     }
 }
