@@ -13,7 +13,7 @@ public class EvenDigitSum {
     /**
      * Prints the sum of even digits in a number
      * @param number the number under examination
-     * @return sum of even numbers
+     * @return sum of even digits
      */
     public static int getEvenDigitSum(int number) {
         if (number < 0) {
