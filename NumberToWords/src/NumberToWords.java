@@ -87,7 +87,7 @@ public class NumberToWords {
      * @return reversed number
      */
     public static int reverse(int someNumber) {
-        // stringbuilder object
+        // string builder object
         StringBuilder numStr = new StringBuilder();
         // convert number to string
         String str = Integer.toString(someNumber);
@@ -118,10 +118,6 @@ public class NumberToWords {
     }
 
 
-    /**
-     * The main method
-     * @param args
-     */
     public static void main(String[] args) {
         // testing methods above
         numberToWords(55689840);
