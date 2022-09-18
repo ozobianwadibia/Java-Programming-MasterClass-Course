@@ -63,7 +63,7 @@ public class GreatestCommonDivisor {
         }
         return result; // return gcd of first and second
     }
-    
+
 
     public static void main(String[] args) {
         // testing the 1st method above
