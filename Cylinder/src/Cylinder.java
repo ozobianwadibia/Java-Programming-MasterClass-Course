@@ -24,20 +24,13 @@ public class Cylinder extends Circle {
         return height;
     }
 
-    /**
-     * Method to compute area of cylinder
-     * @return cylinder area
-     */
-    public double getArea() {
-        return Math.PI * 2 * super.getRadius() * (super.getRadius() + height);
-    }
 
     /**
      * Method to compute volume of cylinder
      * @return cylinder volume
      */
     public double getVolume() {
-        return super.getArea() * height;
+        return Math.PI * Math.pow(super.getRadius(), 2) * height;
     }
 
 }
